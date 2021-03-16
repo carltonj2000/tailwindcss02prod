@@ -2,6 +2,17 @@
 
 ## Videos Tailwind CSS: From Zero to Production
 
+### 06: Extracting Reusable Components
+
+```bash
+rsync -a --exclude node_modules --exclude build ./video5/ ./video6/
+npm i react react-dom
+npm i -D @vitejs/plugin-react-refresh
+npm i -g http-server
+npx vite build
+cd dist; ln -s ../img; http-server
+```
+
 ### 05: Composing Utilities with @apply
 
 ```bash
