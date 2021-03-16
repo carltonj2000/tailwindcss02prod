@@ -2,7 +2,13 @@
 
 ## Videos Tailwind CSS: From Zero to Production
 
-### 03: Responsive Design
+### 05: Composing Utilities with @apply
+
+```bash
+rsync -a --exclude node_modules --exclude build ./video3/ ./video5/
+```
+
+### 03: Responsive Design & 04: Hover, Focus and Other States
 
 ```bash
 rsync -a --exclude node_modules --exclude build ./video2/ ./video3/
