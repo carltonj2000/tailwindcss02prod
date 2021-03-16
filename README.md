@@ -1,8 +1,20 @@
 # Tailwind CSS
 
-## Videos
+## Videos Tailwind CSS: From Zero to Production
 
-### 01 - Setting Up Tailwind CSS
+### 03: Responsive Design
+
+```bash
+rsync -a --exclude node_modules --exclude build ./video2/ ./video3/
+```
+
+### 02: The Utility-First Workflow 
+
+```bash
+rsync -a --exclude node_modules --exclude build ./video1/ ./video2/
+```
+
+### 01: Setting Up Tailwind CSS
 
 ```bash
 npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css # manual build
