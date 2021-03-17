@@ -2,6 +2,14 @@
 
 ## Videos Tailwind CSS: From Zero to Production
 
+### 08: Optimizing for Production
+
+```bash
+rsync -a --exclude node_modules --exclude build ./video7/ ./video8/
+npm run build
+cd dist; ln -s ../img; http-server
+```
+
 ### 07: Customizing Your Design System
 
 ```bash
