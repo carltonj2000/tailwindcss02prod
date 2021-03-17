@@ -2,6 +2,13 @@
 
 ## Videos Tailwind CSS: From Zero to Production
 
+### 07: Customizing Your Design System
+
+```bash
+rsync -a --exclude node_modules --exclude build ./video6/ ./video7/
+npx tailwindcss init tailwind-full.config.js --full
+```
+
 ### 06: Extracting Reusable Components
 
 ```bash
